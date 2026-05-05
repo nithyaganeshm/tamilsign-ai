@@ -2,7 +2,6 @@
 
 **TamilSign AI** is a premium, responsive web application designed to bridge the communication gap for the hearing impaired. It translates live **Tamil Speech** into **Indian Sign Language (ISL)** animations and finger-spelling in real-time.
 
-![TamilSign AI Banner](/backend/signlang.png)
 
 ## ✨ Features
 
