@@ -33,6 +33,9 @@ class Translation(db.Model):
             'english': self.english_text,
             'timestamp': self.timestamp.isoformat() + 'Z'
         }
+@app.route('/health')
+def health_check():
+    return jsonify({"status": "healthy"}), 200
 
 # Create tables
 with app.app_context():
